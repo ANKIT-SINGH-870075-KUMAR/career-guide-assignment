@@ -1,0 +1,7 @@
+.Supercontainer{
+    width: 100%;
+}
+
+.Supercontainer .bg{
+    width: inherit;
+}

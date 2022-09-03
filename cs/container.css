@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1px;
+    height: 250px;
+    width: 100%;
+    color: rgb(165, 138, 233);
+    flex-direction: column;
+    transform: translateY(220px);
+}
+
+.subcontainer {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.button2 {
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: rgb(185, 112, 3);
+    color: white;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.note {
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Postcard {
+
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.329);
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+
+}
+
+.imagebox{
+    padding: 20px;
+}
+
+.card-image .card-img{
+    width: 200px;
+    height: 160px;
+}
+
+.title{
+    color: black;
+    font-size: 18px;
+    
+}
+
+.tag{
+    color:black;
+    font-size: 16px;
+    text-align: left;
+    margin: 10px;
+}
