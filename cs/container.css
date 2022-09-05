@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -56,11 +54,12 @@
 
 .Postcard {
 
-    margin: 10px;
+    margin: 15px;
     height: 400px;
     width: 300px;
-    background-color: antiquewhite;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.329);
+    background-color: rgb(104, 88, 72);
+    box-shadow: 17px 25px 20px rgba(49, 47, 47, 0.932);
+    border-radius: 15px;
 }
 
 hr {
@@ -71,12 +70,13 @@ hr {
 }
 
 .imagebox{
-    padding: 20px;
+    padding: 15px;
 }
 
 .card-image .card-img{
-    width: 200px;
+    width: 250px;
     height: 160px;
+    border-radius: 15px;
 }
 
 .title{
@@ -90,4 +90,16 @@ hr {
     font-size: 16px;
     text-align: left;
     margin: 10px;
+}
+
+@media (max-width:1400px) {
+    .container {
+        transform: translateY(700px);
+    }
+    .border{
+        margin: 12px;
+    }
+    .item{
+        flex-wrap: wrap;
+    }
 }

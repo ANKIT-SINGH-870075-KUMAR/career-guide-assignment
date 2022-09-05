@@ -8,10 +8,9 @@
 .card{
     margin-left: 80px;
     margin-right: 80px;
-    background-color: rgb(255, 255, 255);
-    height: 300px;
+    background-color: rgb(253, 253, 253);
+    height: 40vh;
     display: flex;
-    padding-top: 0px;
     padding: 30px;
     position: relative;
     transform: translateY(-80px);
@@ -80,3 +79,18 @@
     padding-left: 3px;
 }
   
+@media (max-width:1400px) {
+    .card{
+        margin: 0;
+        transform: translateY(-3px);
+        box-shadow: 0 0px 0px rgba(190, 52, 52, 0.329);
+        background-color: rgb(241, 241, 203);
+        height: 290vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .name{
+        margin: 2px;
+    }
+}

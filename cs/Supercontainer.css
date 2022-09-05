@@ -1,7 +1,13 @@
 .Supercontainer{
-    width: 100%;
+    width: 100vw;
 }
 
 .Supercontainer .bg{
     width: inherit;
+}
+
+@media (max-width:1400px) {
+    .Supercontainer{
+        width: 100vw;
+    }
 }
